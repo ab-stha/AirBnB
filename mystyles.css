@@ -31,3 +31,7 @@ div.headerMiddle {
     padding: 5px;
     text-align: center;
 }
+
+.headerTop a{
+    float: right;
+}
