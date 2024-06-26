@@ -22,11 +22,12 @@ body {
     
 }
 
-div.headerMiddle {
-    background-color: red;
+.headerMiddle div{
+    background-color: #FFFFFF;
     margin: 50px;
     padding: 5px;
     text-align: center;
+    font-size: 16px;
 }
 
 .headerTop a{
@@ -53,24 +54,29 @@ div.headerMiddle {
     border: solid lightslategray 1px;
     opacity: 0.6;
     border-radius: 18px;
-    width: 90px;
-    height: 50px;
-    
-}
+    width: 140px;
+    height: 80px;
 
+}
 
 /*
 .profileButtonPic{
-    width:50px;
-    height:20px;
+    width:30px;
+    height:15px;
+    padding:2px;
+
 }
+
 .profileButtonDashes{
-    width: 50px;
-    height: 20px;
+    width: 30px;
+    height: 15px;
+    padding:2px;
 }
+
 */
 #profileButton div{
-    margin: 20px;
-    width: 50px;
-    height: 20px;
+    width: 30px;
+    height: 15px;
+    margin:2px;
+
 }
