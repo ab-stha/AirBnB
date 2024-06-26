@@ -11,8 +11,13 @@ body {
     width: 100%;
 }
 
-.headerTop {
-    border: solid black;
+.headerTop{
+    border: 1px solid black;
+
+}
+
+.headerTopRight {
+    border: 1px solid black;
     float: right;
 }
 
@@ -36,7 +41,7 @@ body {
     background-color: lightgray;
 }
 
-.headerTop a{
+.headerTopRight a{
     padding: 7px;
     border: solid #FFFFFF 1px;
     border-radius: 18px;
@@ -44,7 +49,7 @@ body {
     color: #222222;
 }
 
-.headerTop a:hover{
+.headerTopRight a:hover{
     background-color: lightgray;
     
 }
