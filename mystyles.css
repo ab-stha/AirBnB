@@ -19,6 +19,7 @@ body {
 .headerTopRight {
     border: 1px solid black;
     float: right;
+    display:flex;
 }
 
 .headerMiddle {
@@ -46,6 +47,10 @@ body {
     border-radius: 18px;
     text-decoration: none;
     color: #222222;
+}
+.headerTopRight button{
+    padding: 7px;
+    border: solid black 1px;
 }
 
 .headerTopRight a:hover{
