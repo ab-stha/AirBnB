@@ -39,6 +39,11 @@ body {
     color: #222222;
 }
 
+.headerMiddle a{
+    color:#222222;
+    text-decoration:none;
+}
+
 .headerMiddle div:hover{
     background-color: lightgray;
 }
@@ -69,7 +74,7 @@ body {
 #profileButton{
     background-color: #FFFFFF;
     border: solid lightslategray 1px;
-    opacity: 0.6;
+    opacity: 0.72;
     border-radius: 18px;
     width: 80px;
     height: 45px;
