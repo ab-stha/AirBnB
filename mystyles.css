@@ -51,4 +51,6 @@ div.headerMiddle {
 #profileButton{
     background-color: #FFFFFF;
     border: solid lightslategray 1px;
+    opacity: 0.6;
+    border-radius: 18px;
 }
