@@ -4,20 +4,30 @@ body {
    margin:1px;
 }
 
-h1 {
+a {
     color: #222222;
 }
 
 .headerMain {
-    border: 1px solid #222222;
+    border: 1px solid #FFFFFF;
+    border-bottom-color: #222222;
     padding: 5px;
     width: 100%;
 }
 
 .headerTop {
-    
+    border-radius: 2px;
+    border-color: #FFFFFF;
 }
 
 .headerMiddle {
     display:flex;
+    
+}
+
+div.headerMiddle {
+    background-color: red;
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
 }
