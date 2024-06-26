@@ -35,6 +35,7 @@ div.headerMiddle {
     border: solid #FFFFFF 1px;
     border-radius: 18px;
     text-decoration: none;
+    color: #222222;
 }
 
 .headerTop a:hover{
