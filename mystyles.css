@@ -40,3 +40,9 @@ div.headerMiddle {
 .headerTop a:hover{
     background-color: lightgray;
 }
+
+#globeButton {
+    background-color: white;
+    border: solid #FFFFFF 1px;
+    border-radius: 18px;
+}
