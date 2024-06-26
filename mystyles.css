@@ -12,22 +12,28 @@ body {
 }
 
 .headerTop {
-    border-radius: 2px;
-    border-color: #FFFFFF;
+    border: solid black;
     float: right;
 }
 
 .headerMiddle {
+    float: center;
+    border:solid black;
     display:flex;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .headerMiddle div{
-    background-color: #FFFFFF;
-    margin: 50px;
-    padding: 5px;
-    text-align: center;
+    padding: 7px;
+
     font-size: 16px;
+    border: solid #FFFFFF 1px;
+    color: #222222;
+}
+
+.headerMiddle div:hover{
+    background-color: lightgray;
 }
 
 .headerTop a{
