@@ -58,7 +58,19 @@ div.headerMiddle {
     
 }
 
+
+/*
 .profileButtonPic{
     width:50px;
     height:20px;
+}
+.profileButtonDashes{
+    width: 50px;
+    height: 20px;
+}
+*/
+#profileButton div{
+    margin: 20px;
+    width: 50px;
+    height: 20px;
 }
