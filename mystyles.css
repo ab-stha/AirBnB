@@ -159,13 +159,12 @@ body {
 
 nav{
     background-color: white;
-    overflow:auto;
     white-space: nowrap;
+    overflow:auto;
 }
 
 nav a{
-    float:left;
-    display:block;
+    display:inline-block;
     text-align: center;
     padding: 0px 22px;
     opacity:0.8;
