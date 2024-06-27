@@ -6,7 +6,6 @@ body {
 
 .headerMain {
     border: 1px solid #FFFFFF;
-    border-bottom-color: #222222;
     padding: 5px;
     width: 100%;
 }
@@ -183,5 +182,11 @@ nav a{
 .navButtons div img{
     width: 24px;
     height:24px;
+}
 
+.navigation{
+    border: 1px solid #FFFFFF;
+    border-top-color: #222222;
+    padding-top: 10px;
+    margin-bottom: 5px;
 }
