@@ -174,10 +174,11 @@ nav a{
     width: 60px;
     height: 70px;
     background-color: #FFFFFF;
+    border:none;
 }
 
 .navButtons div{
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
     white-space: nowrap;
 }
 
