@@ -88,7 +88,7 @@ body {
     height:15px;
     padding:2px;
 
-}
+}                                   don't need these for now as #profileButton div css covers this.
 
 .profileButtonDashes{
     width: 30px;
@@ -133,7 +133,7 @@ body {
     background: transparent;
     flex: 1;
     border:0;
-    outline: transparent;     /*focus outline (set to 1 initially)*/
+    outline: transparent;  /* <----focus outline (set to 1 initially)*/
     padding: 10px 16px;
     
 }
