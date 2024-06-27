@@ -166,12 +166,14 @@ nav a{
     float:left;
     display:block;
     text-align: center;
-    padding: 0px 10px;
+    padding: 0px 22px;
+    opacity:0.8;
 }
 
 .navButtons{
     width: 60px;
     height: 70px;
+    background-color: #FFFFFF;
 }
 
 .navButtons div{
