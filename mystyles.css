@@ -157,3 +157,27 @@ body {
     padding: 10px 10px;
     width:40px;
 }
+
+nav{
+    background-color: blue;
+    overflow:hidden;
+}
+
+.navButtons{
+    width: 60px;
+    height: 70px;
+    float:left;
+    display:block;
+    text-align: center;
+}
+
+.navButtons div{
+    border: 1px solid black;
+
+}
+
+.navButtons div img{
+    width: 24px;
+    height:24px;
+
+}
