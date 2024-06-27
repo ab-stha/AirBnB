@@ -178,7 +178,7 @@ nav a{
 
 .navButtons div{
     border: 1px solid black;
-
+    white-space: nowrap;
 }
 
 .navButtons div img{
