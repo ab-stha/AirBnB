@@ -125,7 +125,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 80px;
-    border: 1px solid black;
+    border: 1px solid #222222;
 }
 
 .searchBar input{
