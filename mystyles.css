@@ -1,8 +1,11 @@
 body {
    background-color: #FFFFFF;
    text-align: center;
-   margin:1px;
+   margin-left: 265px;
+   margin-right: 265px;
    overflow-x: hidden;
+   border-left: solid 1px #222222;
+   border-right: solid 1px #222222;
 }
 
 .headerMain {
