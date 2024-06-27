@@ -12,12 +12,12 @@ body {
 }
 
 .headerTop{
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
 
 }
 
 .headerTopRight {
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
     float: right;
     display:flex;
     margin-right: 20px;
@@ -25,7 +25,7 @@ body {
 }
 
 .headerMiddle {
-    border:solid black;
+    border: 1px solid #FFFFFF;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +115,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
 }
 
 .searchBar{
@@ -138,10 +138,10 @@ body {
     
 }
 
-.searchBar button img{
-    width:40px
+/*.searchBar button img{
+    width:40px                  don't need this for now as the .searchPic css for the div covers this.
 
-}
+}*/
 
 .searchBar button{
     border: 0;
@@ -150,8 +150,10 @@ body {
     height: 50px;
     color: #FFFFFF;
     background-color: #FF5A5F;
+    margin-right: 8px;
 }
 
 .searchPic{
     padding: 10px 10px;
+    width:40px;
 }
