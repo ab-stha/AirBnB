@@ -110,3 +110,29 @@ body {
     margin-left: 20px;
     margin-top: 10px;
 }
+
+.headerBottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.searchBar{
+    width:100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    border: 1px solid black;
+}
+
+.searchBar input{
+    background: transparent;
+    flex: 1;
+    border:0;
+    outline: 1;
+    padding: 10px 16px;
+    
+}
