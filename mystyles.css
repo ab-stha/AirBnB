@@ -4,8 +4,8 @@ body {
    margin-left: 265px;
    margin-right: 265px;
    overflow-x: hidden;
-   border-left: solid 1px #222222;
-   border-right: solid 1px #222222;
+   border-left:#FFFFFF;
+   border-right: #FFFFFF;
 }
 
 .headerMain {
@@ -200,13 +200,13 @@ nav a{
 
 .navigation{
     border: 1px solid #FFFFFF;
-    border-top-color: #222222;
+    border-top-color: lightslategray;
     padding-top: 10px;
     margin-bottom: 5px;
 }
 
 .container{
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
     background-color: #FFFFFF ;
     display: flex;
     flex-wrap: wrap;
