@@ -2,6 +2,7 @@ body {
    background-color: #FFFFFF;
    text-align: center;
    margin:1px;
+   overflow-x: hidden;
 }
 
 .headerMain {
@@ -161,7 +162,14 @@ nav{
     background-color: white;
     white-space: nowrap;
     overflow:auto;
+    -ms-overflow-style: none;       /* IE and Edge */       /* these two lines make the scrollbar in the nav invisible for these engines.*/
+    scrollbar-width: none;          /* Firefox */
 }
+
+nav::-webkit-scrollbar{             /* this line makes it that the scrollbar in the nav is invisible in chrome, safari & opera */
+    display:none;
+}
+
 
 nav a{
     display:inline-block;
